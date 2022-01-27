@@ -37,26 +37,38 @@ header {
 .inner-float {
     float: left;
     height: 300px;
+    width: 40%;
+}
+
+.inner-float-2 {
+    float: left;
+    height: 300px;
     width: 30%;
 }
 
-
 .debug .float {
-      border: 5px solid #ff0000;
+      border-top: 10px solid;
+      border-right: 10px solid;
+      border-bottom: 10px solid;
+      border-color: #0186ff;
       margin-top: 10%;
   }
 
 
-  .debug .inner-float {
-    border: 5px solid black;
+.debug .inner-float {
+      border-top: 10px solid;
+      border-bottom: 10px solid; 
+      border-color: #0186ff;
     margin-top: 10%;
   }
 
-  .debug .center {
-    border: 2px dashed black;
-    width: 30%;
+  .debug .inner-float-2 {
+    border-top: 10px solid;
+     border-left: 10px solid;
+    border-bottom: 10px solid; 
+    border-color: #0186ff;
     margin-top: 10%;
-}
+  }
     
 .clearfix::after {
     content: " ";
