@@ -30,51 +30,51 @@ header {
 
 .float {
     float: left;
-    height: 300px;
+    height: 305px;
     width: 30%;
 }
 
 .inner-float {
     float: left;
-    height: 300px;
+    height: 305px;
     width: 40%;
 }
 
 .inner-float-2 {
     float: left;
-    height: 300px;
+    height: 305px;
     width: 30%;
 }
 
 .debug .float {
-      border-top: 10px solid;
-      border-right: 10px solid;
-      border-bottom: 10px solid;
-      border-color: #0186ff;
-      margin-top: 10%;
+    border-top: 13px solid;
+    border-right: 10px solid;
+    border-bottom: 10px solid;
+    border-color: #0186ff;
+    margin-top: 10%;
   }
 
 
 .debug .inner-float {
-      border-top: 10px solid;
-      border-bottom: 10px solid; 
-      border-color: #0186ff;
+    border-top: 13px solid;
+    border-bottom: 10px solid; 
+    border-color: #0186ff;
     margin-top: 10%;
   }
 
-  .debug .inner-float-2 {
-    border-top: 10px solid;
-     border-left: 10px solid;
+.debug .inner-float-2 {
+    border-top: 13px solid;
+    border-left: 10px solid;
     border-bottom: 10px solid; 
     border-color: #0186ff;
     margin-top: 10%;
   }
     
-.clearfix::after {
+/*.clearfix::after {
     content: " ";
     clear: both;
     display: table;
-  }
+  }/*
 
 
 
