@@ -79,17 +79,15 @@ header {
 
 
 
-
-
-
-
   /*footer*/
 
 .footer {
     content: " ";
     height: 50px;
     width: 70%;
-    margin: 20px auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
     background-color: #8801fe;
 }
 
