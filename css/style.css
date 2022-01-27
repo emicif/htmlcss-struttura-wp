@@ -20,9 +20,18 @@ header {
     background-color: #e1d67a;
 }
 
+
+.container-blu{
+    height: 100px;
+    width: 70%;
+    margin-top: 20px;
+    margin: auto;
+    background-color: #abcfe7;
+}
+
+
 .container-2 {
     content: " ";
-    height: 400px;
     width: 70%;
     margin: auto;
     background-color: #abcfe7;
@@ -30,8 +39,8 @@ header {
 
 .float {
     float: left;
-    height: 305px;
     width: 30%;
+    height: 305px;
 }
 
 .inner-float {
@@ -51,7 +60,6 @@ header {
     border-right: 10px solid;
     border-bottom: 10px solid;
     border-color: #0186ff;
-    margin-top: 10%;
   }
 
 
@@ -59,7 +67,6 @@ header {
     border-top: 13px solid;
     border-bottom: 10px solid; 
     border-color: #0186ff;
-    margin-top: 10%;
   }
 
 .debug .inner-float-2 {
@@ -67,14 +74,14 @@ header {
     border-left: 10px solid;
     border-bottom: 10px solid; 
     border-color: #0186ff;
-    margin-top: 10%;
+
   }
     
-/*.clearfix::after {
+.clearfix::after {
     content: " ";
     clear: both;
     display: table;
-  }/*
+  }
 
 
 
