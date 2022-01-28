@@ -1,101 +1,121 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-header {
-    content: " ";
-    height: 70px;
-    width: 70%;
-    margin: 20px auto;
-    background-color: #e579e6;
-}
+/* inizio utility classes */
 
-.container {
-    content: " ";
-    height: 400px;
-    width: 70%;
-    margin: 20px auto;
-    background-color: #e1d67a;
-}
-
-
-.container-blu{
-    height: 100px;
-    width: 70%;
-    margin-top: 20px;
-    margin: auto;
-    background-color: #abcfe7;
-}
-
-
-.container-2 {
-    content: " ";
-    width: 70%;
-    margin: auto;
-    background-color: #abcfe7;
-}  
-
-.float {
-    float: left;
-    width: 30%;
-    height: 305px;
-}
-
-.inner-float {
-    float: left;
-    height: 305px;
-    width: 40%;
-}
-
-.inner-float-2 {
-    float: left;
-    height: 305px;
-    width: 30%;
-}
-
-.debug .float {
-    border-top: 13px solid;
-    border-right: 10px solid;
-    border-bottom: 10px solid;
-    border-color: #0186ff;
-  }
-
-
-.debug .inner-float {
-    border-top: 13px solid;
-    border-bottom: 10px solid; 
-    border-color: #0186ff;
-  }
-
-.debug .inner-float-2 {
-    border-top: 13px solid;
-    border-left: 10px solid;
-    border-bottom: 10px solid; 
-    border-color: #0186ff;
-
-  }
-    
 .clearfix::after {
     content: " ";
     clear: both;
     display: table;
   }
 
+/* / utility classes */
 
 
 
-  /*footer*/
+/* inizio layout */
+
+.container-tot{
+    width: 70%;
+    margin: 15px auto;
+}
+
+
+/* header */
+
+header {
+    margin: 20px auto;
+    margin-top: 10px;
+}
+
+
+/* fine header */
+
+
+/* inizio main */
+
+main {
+    padding-bottom: 20px;
+}
+
+.container {
+    margin-bottom: 20px;  
+}
+
+.container-blu{   
+    /*margin-top: 20px;*/
+    margin: auto;   
+}
+
+
+.container-2 {
+    margin: auto;
+}  
+
+.float {
+    float: left;
+    width: 25%;
+}
+
+.center {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 46%;
+}
+
+
+/* inizio debug */
+
+
+.debug header {
+    height: 70px;
+    background-color: #e579e6;
+}
+
+
+.debug .container-tot {
+    border: 2px dashed red;
+    /*height: 1000px;*/
+}
+
+.debug .container {
+    height: 400px;
+    background-color: #e1d67a;
+}
+
+.debug .container-blu {
+    height: 100px;
+    background-color: #abcfe7;
+}
+
+.debug .container-2 {
+    background-color: #0186ff;
+    height: 420px;
+}
+
+.debug .float {
+    height: 400px;
+    background-color: #abcfe7;
+  }
+
+.debug .footer {
+    height: 50px;
+    background-color: #8801fe;
+}
+
+
+/* / debug */
+
+
+
+/*footer*/
 
 .footer {
-    content: " ";
-    height: 50px;
-    width: 70%;
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    background-color: #8801fe;
 }
 
 
