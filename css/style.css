@@ -93,12 +93,14 @@ main {
 
 .debug .container-2 {
     background-color: #0186ff;
-    height: 420px;
+    height: 440px;
 }
 
 .debug .float {
     height: 400px;
     background-color: #abcfe7;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
 .debug .footer {
